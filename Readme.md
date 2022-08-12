@@ -8,4 +8,4 @@ I have used HTML,CSS and javascript for build this project.
 I have learnt lots of from this project.
 I have built this project within 2 hours and 20 minutes.
 
-[project-link](http://abhishekjadhav.netlify.app)
+[project-link](https://abhi16.netlify.app/)
