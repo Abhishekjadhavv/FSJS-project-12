@@ -1,0 +1,449 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Heebo', sans-serif;
+}
+
+
+
+
+/* ----utility classes start here---- */
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-col-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.padding {
+    padding: 1rem 3rem;
+}
+
+.heading {
+    font-size: 3rem;
+    color: #000;
+    font-weight: 600;
+}
+
+.btn {
+    border: 1px solid #ccc;
+    background: transparent;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    padding: .3rem 1.5rem;
+}
+
+.btn-2 {
+    background: #89c0a3;
+    padding: .3rem 1.5rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* ----utility classes end here ---- */
+
+/* --- navbar :start here --- */
+
+header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 11;
+}
+
+.navbar {
+    background: #424646;
+    z-index: 11;
+}
+
+.navbar .btn {
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 100px;
+    cursor: pointer;
+    filter: invert(1);
+}
+
+.menu-list {
+    flex: 1;
+    justify-content: end;
+}
+
+.menu-list li a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.bar {
+    display: none !important;
+    font-size: 3rem;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 5px;
+}
+
+/* ----- navbar end here ---- */
+
+/* ------ home-section start---- */
+.home-section {
+    background-color: #424646;
+    padding-top: 120px !important;
+    padding-bottom: 50px !important;
+}
+
+.home-content .heading {
+    color: #fff;
+}
+
+.home-content {
+    gap: 50px;
+}
+
+.home-box {
+    flex-basis: 45%;
+    align-self: flex-start;
+}
+
+.home-box img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.home-box p {
+    font-size: 16px;
+    color: #f5f5f5;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-box {
+    max-width: 520px;
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+    padding: 5px 5px;
+    margin-top: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    flex: 1;
+    height: 100%;
+    outline: none;
+    font-size: 16px;
+    border: none;
+    background: transparent;
+}
+
+.input-box i {
+    font-size: 1.4rem;
+    color: black;
+}
+
+.input-box .btn-2 {
+    height: 100%;
+}
+
+/* ------ home-section end---- */
+
+.connect-info {
+    flex-wrap: wrap;
+}
+
+.Connect .heading,
+.care .heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+
+.conn-box {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.conn-box h4 {
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.conn-box span {
+    font-size: 17px;
+    font-weight: 500;
+    color: #181616;
+}
+
+.img {
+
+    width: 100%;
+    margin-top: 40px;
+    height: 400px;
+    background: url(/img/4.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.care-content {
+    margin-top: 30px;
+}
+
+.care {
+    padding-top: 50px;
+}
+
+.care-box {
+    margin-top: 50px !important;
+    flex-wrap: wrap;
+}
+
+.c-box {
+    flex-basis: 48%;
+
+}
+
+.c-box h2 {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.c-box p {
+    font-size: 18px;
+    color: #181616;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.c-box img {
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.Creative {
+    margin-top: 70px;
+}
+
+.user {
+    margin-top: 40px;
+}
+
+.user-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.user .content h2 {
+    margin: 10px 0px;
+    font-size: 1.3rem;
+    color: #000;
+}
+
+.user .content p {
+    font-size: 16px;
+    color: #181616;
+}
+
+.Creative .button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer {
+    background-color: #1f1f1f;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+}
+
+.footer-header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.footer-header .logo{
+    align-self: flex-start;
+}
+
+.footer-icons {
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.footer-header .icon-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2e3030;
+    cursor: pointer;
+}
+
+.icon-box i {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.footer-content {
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.content-box {
+    margin-top: 20px;
+}
+
+.footer-content h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-content ul li {
+    color: rgb(213, 205, 205);
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer-content ul li:first-child {
+    margin-top: 0px;
+}
+
+
+@media screen and (max-width:1250px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    .heading {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .bar {
+        display: block !important;
+    }
+
+    .padding {
+        padding: 1rem;
+    }
+
+    .navbar {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .navbar .btn {
+        margin-left: 0px;
+    }
+
+    .menu-list {
+        position: absolute;
+        left: 0px;
+        top: 98%;
+        background-color: #424646;
+        width: 100%;
+        padding: 1rem;
+        align-items: flex-start;
+        flex-flow: column;
+        border-bottom: 1px solid #ccc;
+        transition: all 0.3s ease;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .menu-list.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .home-content {
+        flex-flow: column;
+    }
+}
+
+@media screen and (max-width:730px) {
+    .c-box {
+        align-self: flex-start;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .care-box {
+        flex-flow: column-reverse;
+    }
+
+    .care-box.col-rev,
+    .Creative-team {
+        flex-flow: column;
+    }
+
+    .grid-col-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (max-width:500px) {
+
+    .Connect .heading,
+    .care .heading {
+        text-align: start;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    .grid-col-3 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:323px) {
+    .navbar .btn {
+        display: none;
+    }
+}
